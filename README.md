@@ -7,3 +7,5 @@
 - While login, user wil verify username ans password.
 - To validate 2-factor authentcation, we can use other application to share OTP (like google authenticator).
 - Once it validate, will redirect to our dashboard/home page
+- To test scinarios with component level, feature level we can use RTL or Enzyme test libabries with Jest test framework
+- We will prefer React Testing Library (RTL) with Jest to test all our test cases, because enzyme require more coding and unnecessary accessiblity to DOM.
